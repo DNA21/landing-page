@@ -2,4 +2,56 @@ body {
     display: flex;
     flex-direction: column;
     justify-content: space-between;
+    margin: 0 15%;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+}
+
+ul {
+    display: flex;
+    gap: 8px;
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+}
+
+.top {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+h2 {
+    text-align: center;
+}
+
+.info-boxes {
+    display: flex;
+    justify-content: space-around;
+}
+
+.quote {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.action {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+
+
+.footer {
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
